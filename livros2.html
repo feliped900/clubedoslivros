@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clube dos Clássicos</title>
+    <!-- Inclui o bootstrap via CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Inclui o font-awesome via CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Inclui o estilo personalizado -->
+    <style>
+        /* Define a cor de fundo do cabeçalho e do rodapé */
+        .bg-dark {
+            background-color: #333 !important;
+        }
+
+        /* Define a cor do texto do cabeçalho e do rodapé */
+        .text-white {
+            color: #fff !important;
+        }
+
+        /* Define a cor dos links do cabeçalho e do rodapé */
+        .text-white a {
+            color: #000000 !important;
+        }
+
+        /* Define o espaçamento entre os itens do cabeçalho e do rodapé */
+        .py-3 {
+            padding-top: 1rem !important;
+            padding-bottom: 1rem !important;
+        }
+
+        /* Define o espaçamento entre as seções dos livros */
+        .py-4 {
+            padding-top: 1.5rem !important;
+            padding-bottom: 1.5rem !important;
+        }
+
+        /* Define o estilo das imagens dos livros */
+        .book-img {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        /* Define o estilo dos ícones do font-awesome */
+        .fa {
+            font-size: 1.2rem;
+            margin-right: 0.5rem;
+            color: #333;
+        }
+
+        /* Define o estilo dos botões do Google Meet */
+        .btn-meet {
+            background-color: #ea4335;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        /* Define o estilo dos botões do Google Meet ao passar o mouse */
+        .btn-meet:hover {
+            background-color: #d93025;
+            color: #fff;
+            text-decoration: none;
+        }
+
+         /* Define o estilo dos botões da Amazon */
+         .btn-amazon {
+            background-color: #f3a847;
+            color: #333;
+            border: none;
+            border-radius: 4px;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        /* Define o estilo dos botões do Google Meet ao passar o mouse */
+        .btn-amazon:hover {
+            background-color: #f7b259;
+            color: #333;
+            text-decoration: none;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <!-- Cria o cabeçalho do site com o nome do clube e um menu de navegação -->
+    <header class="bg-warning text-white py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="text-dark">Clube dos Clássicos</h1>
+                    <p class="text-dark">Um clube de leitura para os amantes da literatura clássica</p>
+                </div>
+                <div class="col-md-6">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active"><a class="nav-link" href="#janeiro">Janeiro</span></a></li>
+                            <li class="nav-item active"><a class="nav-link" href="#fevereiro">Fevereiro</span></a></li>
+                            <li class="nav-item active"><a class="nav-link" href="#marco">Março</span></a></li>
+                            <li class="nav-item active"><a class="nav-link" href="#abril">Abril</span></a></li>
+                            <li class="nav-item active"><a class="nav-link" href="#maio">Maio</span></a></li>
+                            <li class="nav-item active"><a class="nav-link" href="#junho">Junho</span></a></li>
+                        </ul>
+                    </nav>
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active"><a class="nav-link" href="#julho">Julho</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="#agosto">Agosto</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="#setembro">Setembro</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="#outubro">Outubro</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="#novembro">Novembro</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="#dezembro">Dezembro</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Cria o conteúdo principal do site com as seções dos livros -->
+    <main>
+        <!-- Cria a seção do livro de janeiro -->
+        <section id="janeiro" class="py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <!-- Mostra a imagem do livro -->
+                        <img src="https://m.media-amazon.com/images/I/91-pBc4FtgL._SL1500_.jpg" alt="As aventuras de Tom Sawyer" class="book-img">
+                    </div>
+                    <div class="col-md-8">
+                        <!-- Mostra o título e o autor do livro -->
+                        <h2>As aventuras de Tom Sawyer</h2>
+                        <p><strong>Autor:</strong> Mark Twain</p>
+                        <!-- Mostra a sinopse do livro -->
+                        <p><strong>Sinopse:</strong> Personagem cativante e irresistível, Tom Sawyer é um moleque brincalhão e de raciocínio rápido que está sempre no centro das ações. Durante um verão de muito calor, ele e seu grande parceiro Huckleberry Finn testemunham um assassinato e, enquanto os amigos tentam escapar do nefasto vilão Índio Joe, Tom cria um grupo de piratas com sua turma, descobre o amor, se perde em uma caverna sinistra, vai ao seu próprio funeral e, numa casa mal-assombrada, encontra um tesouro.
+                            Sob a aparente leveza das divertidas aventuras da turma de meninos, Mark Twain explora temas profundos do mundo adulto e da vida no Mississippi nas décadas de 1830 e 1840, como racismo, escravidão, pobreza, assassinato e vingança, produzindo uma obra inesquecível para todas as idades.</p>
+                        <!-- Mostra o cronograma de leitura e a data do encontro online -->
+                        <p><strong>Cronograma de leitura:</strong> de 01/01/2023 a 31/01/2023</p>
+                        <p><strong>Data do encontro online:</strong> 01/02/2023 às 19h</p>
+                        <!-- Mostra o link para o Google Meet -->
+                        <p><a href="^5^" class="btn-meet" target="_blank"><i class="fa fa-video-camera"></i> Entrar no Google Meet</a></p>
+                        <p><a href="https://amzn.to/3rSHPTQ" class="btn-amazon" target="_blank"><i class="fa fa-shopping-cart"></i> Comprar o livro</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cria a seção do livro de fevereiro -->
+        <section id="fevereiro" class="py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <!-- Mostra a imagem do livro -->
+                        <img src="https://editoraunesp.com.br/catalogo/9786557111093,os-trabalhadores-do-mar/capa" alt="Os trabalhadores do mar" class="book-img">
+                    </div>
+                    <div class="col-md-8">
+                        <!-- Mostra o título e o autor do livro -->
+                        <h2>Os trabalhadores do mar</h2>
+                        <p><strong>Autor:</strong> Victor Hugo</p>
+                        <!-- Mostra a sinopse do livro -->
+                        <p><strong>Sinopse:</strong> Sozinho em um singelo barco, Gilliatt se lança ao mar, determinado a encontrar o navio naufragado (e obter a mão da donzela prometida), e sendo obrigado a se bater com toda sorte de dificuldades que o destino parece caprichosamente interpor entre ele e sua amada. Humano em uma missão com ares mitológicos, Gilliatt se inscreve entre os grandes personagens do mestre francês.</p>
+                        <!-- Mostra o cronograma de leitura e a data do encontro online -->
+                        <p><strong>Cronograma de leitura:</strong> de 01/02/2024 a 28/02/2024</p>
+                        <p><strong>Data do encontro online:</strong> 01/03/2024 às 19h</p>
+                        <!-- Mostra o link para o Google Meet -->
+                        <p><a href="^5^" class="btn-meet" target="_blank"><i class="fa fa-video-camera"></i> Entrar no Google Meet</a></p>
+                        <p><a href="https://amzn.to/45xxb2K" class="btn-amazon" target="_blank"><i class="fa fa-shopping-cart"></i> Comprar o livro</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+</body>
+</html>
